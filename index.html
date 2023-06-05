@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Registro para campañas</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Registro</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Complete los siguiente datos</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Apellido</label>
+                            <input type="text" placeholder="Ingrese su Apellido" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Fecha de Nacimiento</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Número de teléfono</label>
+                            <input type="tel" placeholder="Ingrese su número de télefono" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Compañía</label>
+                            <input type="text" placeholder="Ingrese compañía" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Título</label>
+                            <input type="text" placeholder="Ingrese el titulo" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="details ID">
+                    <span class="title">Datos de residencia</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Pais</label>
+                            <input type="text" placeholder="Ingrese su pais" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Estado / Provincia</label>
+                            <input type="text" placeholder="Ingrese su estado o provincia" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Ciudad</label>
+                            <input type="text" placeholder="Ingrese su ciudad" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Dirección</label>
+                            <input type="text" placeholder="Ingrese su dirección" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Codigo Postal</label>
+                            <input type="text" placeholder="Ingrese codigo postal" required>
+                        </div>
+
+                        <div class="input-field">
+                            <button class="sumbit">
+                                <span class="btnText">Enviar</span>
+                                <i class="uil uil-navigator"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+    </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
