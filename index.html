@@ -36,7 +36,7 @@
                         </div>
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="text" placeholder="Enter your email"
+                            <input type="text" placeholder="ejemplo@gmail.com"
                                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                         </div>
                         <div class="input-field">
@@ -59,11 +59,18 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Pais</label>
-                            <input type="text" placeholder="Ingrese su pais" required>
+                            <select id="pais" name="pais" required>
+                                <option value="argentina">Argentina</option>
+                                <option value="chile">Chile</option>
+                                <option value="mexico">Mexico</option>
+                                <option value="uruguay">Uruguay</option>
+                            </select>
                         </div>
                         <div class="input-field">
                             <label>Estado / Provincia</label>
-                            <input type="text" placeholder="Ingrese su estado o provincia" required>
+                            <select id="provincia" name="provincia" required>
+                                <option value="">Seleccione un Estado / Provincia</option>
+                            </select>   
                         </div>
                         <div class="input-field">
                             <label>Ciudad</label>
@@ -99,7 +106,7 @@
     </div>
     </form>
     </div>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
